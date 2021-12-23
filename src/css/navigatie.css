@@ -1,0 +1,70 @@
+/*Kleuren komen van een palet: https://coolors.co/22577a-38a3a5-57cc99-80ed99-c7f9cc*/
+#navLinks {
+  padding: 5px;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-width: 2px;
+  border-color: #22577a;
+  border-radius: 15px;
+}
+#navigatie_ul li a {
+  display: block;
+  padding: 8px;
+  background-color: #c7f9cc;
+  border-radius: 10px;
+  box-shadow: 1px 1px gray;
+}
+
+#navigatie_ul li a:hover {
+  background-color: #e5ebb2;
+}
+
+#navigatie_ul {
+  display: inline-block;
+}
+
+#navigatie_ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+svg {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.welkomUser {
+  position: absolute;
+  left: 75px;
+}
+
+.welkomParagraaf {
+  font-size: large;
+  font-weight: 500;
+  height: 50px;
+  line-height: 50px;
+}
+
+.linkLogin_Logout {
+  position: absolute;
+  right: 75px;
+}
+
+.linkLogin_Logout button {
+  background-color: #c7f9cc;
+  border-radius: 10px;
+  box-shadow: 1px 1px gray;
+  color: #2b2b2b;
+}
+
+.linkLogin_Logout button:hover {
+  background-color: #e5ebb2;
+}
+
+.balk {
+  position: relative;
+  background-color: rgba(4, 120, 87, 1);
+  height: 50px;
+}

@@ -1,0 +1,12 @@
+{
+  "base_url": "http://localhost:9000/api/",
+  "token_key": "auth_token",
+  "email_service_token": "service_4dpmohg",
+  "email_template_token": "template_xhwdowp",
+  "email_user_token": "user_L7V83l69Sl32odTrTHyqb",
+  "firebase_auth_domain": "mijnwebapp-40676.firebaseapp.com",
+  "firebase_project_id": "mijnwebapp-40676",
+  "firebase_storage_bucket": "mijnwebapp-40676.appspot.com",
+  "firebase_messaging_sender_id": "103384621222",
+  "firebase_app_id": "1:103384621222:web:b5b63d644cdcbde2171467"
+}

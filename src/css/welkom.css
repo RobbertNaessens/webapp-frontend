@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 350;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  width: auto;
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  padding-bottom: 1rem;
+}

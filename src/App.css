@@ -1,0 +1,50 @@
+#main {
+  /*background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);*/
+  background-image: linear-gradient(135deg, #57cc99 0%, #38a3a5 100%);
+  min-height: 100vh;
+}
+
+#logoImg {
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  width: auto;
+  max-width: 50%;
+  max-height: 50%;
+  padding-top: 10px;
+}
+
+.contact {
+  position: relative;
+  background-color: rgba(4, 120, 87, 1);
+  height: 50px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.contact-p {
+  position: absolute;
+  padding-bottom: 0px;
+  /* left: 10px; */
+  right: 260px;
+  bottom: 15px;
+}
+
+.contact-gegevens {
+  position: absolute;
+  padding-bottom: 0px;
+  /* left: 85px; */
+  right: 10px;
+  text-align: left;
+}
+
+.contact-c {
+  position: absolute;
+  padding-bottom: 0px;
+  bottom: 15px;
+  left: 10px;
+  text-align: left;
+}

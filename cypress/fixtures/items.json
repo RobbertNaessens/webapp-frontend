@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": "7f28c5f9-d711-4cd6-ac15-d13d71abff84",
+      "title": "item1",
+      "imagesrc": "/images/Afb3.jpg",
+      "description": "Dit is een eerste voorbeeld",
+      "price": "9.99",
+      "type": {
+        "id": "6f28c5f9-d711-4cd6-ac15-d13d71abff89",
+        "title": "Sleutelhanger"
+      }
+    },
+    {
+      "id": "7f28c5f9-d711-4cd6-ac15-d13d71abff85",
+      "title": "item2",
+      "imagesrc": "/images/Afb3.jpg",
+      "description": "Dit is een tweede voorbeeld",
+      "price": "19.99",
+      "type": {
+        "id": "6f28c5f9-d711-4cd6-ac15-d13d71abff89",
+        "title": "Sleutelhanger"
+      }
+    },
+    {
+      "id": "7f28c5f9-d711-4cd6-ac15-d13d71abff86",
+      "title": "item3",
+      "imagesrc": "/images/Afb4.jpg",
+      "description": "Dit is een derde voorbeeld",
+      "price": "14.99",
+      "type": {
+        "id": "6f28c5f9-d711-4cd6-ac15-d13d71abff92",
+        "title": "Gemaakte beelden"
+      }
+    }
+  ],
+  "count": 3,
+  "limit": 100,
+  "offset": 0
+}

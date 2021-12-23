@@ -1,0 +1,153 @@
+:root {
+  --price-tag-background: rgba(0, 0, 0, 0.3);
+  --price-tag-height: 2rem;
+}
+
+.price-tag {
+  background: var(--price-tag-background);
+  color: #fff;
+  float: right;
+
+  /* Center the price */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  /* Used to position the triangle */
+  position: relative;
+
+  /* Size */
+  height: var(--price-tag-height);
+  width: 4rem;
+
+  /* Spacing */
+  padding: 0.25rem 0.5rem;
+  margin: 0 1rem;
+}
+
+/* The triangle */
+.price-tag::before {
+  content: "";
+
+  border-color: transparent var(--price-tag-background) transparent transparent;
+  border-style: solid;
+  border-width: calc(var(--price-tag-height) / 2)
+    calc(var(--price-tag-height) / 2) calc(var(--price-tag-height) / 2) 0rem;
+
+  /* Position */
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  transform: translate(-100%, 0px);
+}
+
+/* The dot */
+.price-tag::after {
+  content: "";
+
+  /* Make it like a cirle */
+  background: #fff;
+  border-radius: 9999rem;
+
+  /* Position */
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-0.5rem, -50%);
+
+  /* Size */
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: large;
+  font-weight: 500;
+}
+
+#card-footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+#itemData {
+  position: relative;
+  background-color: #c7f9cc;
+  padding: 3px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px;
+  margin: 7px;
+}
+.card-body #category {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 15px;
+  position: relative;
+  padding: 12px 30px;
+  border: 1px solid #38a3a5;
+  background: #38a3a5;
+  color: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 27px;
+}
+
+.card-body .card-title {
+  text-align: center;
+}
+
+.card-body .card-title h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.card-body .card-text p {
+  margin: 0;
+}
+
+.card-body .card-text {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.card-footer {
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.card-footer:after,
+.card-footer:before {
+  content: "";
+  display: table;
+}
+.card-footer:after {
+  clear: both;
+}
+
+.card-footer .wcf-left {
+  float: left;
+}
+
+.card-footer .wcf-right {
+  float: right;
+}
+  
+.card-footer .wcf-left button {
+  margin-top: 0;
+}
+
+#itemDescription {
+  font-size: 20px;
+}
