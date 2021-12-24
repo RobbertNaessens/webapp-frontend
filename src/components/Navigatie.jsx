@@ -55,7 +55,13 @@ export const Navigate = () => {
         </div>
         <div className="mx-auto w-1/5">
           <Link to={"/welkom"}>
-            <img id="logoImg" src={"/images/Home.jpg"} alt="Home" />
+            <img
+              id="logoImg"
+              src={
+                "https://firebasestorage.googleapis.com/v0/b/mijnwebapp-40676.appspot.com/o/images%2FHome.jpg?alt=media&token=d3c9e350-ff7b-477c-af68-cdb5db44d4f4"
+              }
+              alt="Home"
+            />
           </Link>
         </div>
         <div id="navLinks">

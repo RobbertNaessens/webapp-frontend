@@ -126,7 +126,7 @@ export default function BestellingPage() {
             ),
             icon: "success",
           });
-          //sendEmail();
+          sendEmail();
           deleteOrder(currentOrder.id);
           history.replace("/");
         } catch (error) {
