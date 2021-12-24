@@ -127,6 +127,9 @@ export const Navigate = () => {
         <Route exact path="/login">
           <LogInPage />
         </Route>
+        <Route path="/webapp-frontend">
+          <Redirect to="/welkom" />
+        </Route>
         <Route path="/" exact>
           <Redirect to="/welkom" />
         </Route>
