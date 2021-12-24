@@ -2,7 +2,7 @@
   "name": "webapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://RobbertNaessens.github.io/webapp-frontend",
+  "homepage": "https://robbertnaessens.github.io/webapp-frontend",
   "dependencies": {
     "@craco/craco": "^6.3.0",
     "@sweetalert/with-react": "^0.1.1",
